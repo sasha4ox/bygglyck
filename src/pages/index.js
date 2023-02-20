@@ -18,44 +18,47 @@ export default function Home() {
       </Head>
 
       <Header />
-        <div className={styles.mainPhoto}>
-            <Image
-                src='/photos/main.jpg'
-                alt="Main Photos"
-                className={styles.vercelLogo}
-                fill
-                priority
-            />
-        </div>
-        <section className={styles.descriptionWrapper}>
-            <div className={styles.description}>
-                <p>Välkommen till vårt byggföretag i Sverige där vi levererar högkvalitativa byggtjänster och  konstnärlig väggmålning. Vi är en pålitlig partner som alltid strävar efter att överträffa våra kunders förväntningar och leverera fantastiska resultat varje gång.</p>
-
-                <p>Vi tror på att byggprocessen ska vara en lycklig och problemfri upplevelse för våra kunder. Därför arbetar vi hårt för att leverera den högsta kvaliteten på alla våra projekt och att alltid behandla våra kunder med respekt och ärlighet. Vi tror på att bygga långsiktiga relationer med våra kunder baserat på tillit och öppen kommunikation.</p>
-
-                <p>Kontakta oss för att se hur vi kan hjälpa dig att förverkliga dina byggdrömmar på ett lyckligt och framgångsrikt sätt.</p>
+        <section className={styles.maxWidth}>
+            <div className={styles.mainPhoto}>
+                <Image
+                    src='/photos/main.jpg'
+                    alt="Main Photos"
+                    className={styles.vercelLogo}
+                    fill
+                    priority
+                />
             </div>
-        </section>
-        <div className={styles.mainPhotoSecond}>
-            <Image
-                src='/photos/mainSecond.jpg'
-                alt="Main Photos"
-                className={styles.vercelLogo}
-                fill
-                priority
-            />
-        </div>
-        <section className={styles.descriptionWrapper}>
-            <div className={styles.description}>
-                <p>En konstnärlig väggmålning är ett fantastiskt sätt att förvandla en tråkig vägg eller ett utrymme
-                    till ett imponerande konstverk. Det kan ge din inredning ett unikt och personligt utseende samtidigt
-                    som det bidrar till att skapa en speciell atmosfär och känsla i rummet. Konstnärliga väggmålningar
-                    kan utföras i olika stilar och tekniker för att passa dina behov och önskemål. Du kan välja en stor
-                    och färgglad mural som skapar en imponerande visuell effekt eller en mindre målning som passar
-                    perfekt i ett hörn. Oavsett vad du väljer kommer en konstnärlig väggmålning att göra ditt hem eller
-                    din arbetsplats unikt och personligt.</p>
+            <section className={styles.descriptionWrapper}>
+                <div className={styles.description}>
+                    <p>Välkommen till vårt byggföretag i Sverige där vi levererar högkvalitativa byggtjänster och  konstnärlig väggmålning. Vi är en pålitlig partner som alltid strävar efter att överträffa våra kunders förväntningar och leverera fantastiska resultat varje gång.</p>
+
+                    <p>Vi tror på att byggprocessen ska vara en lycklig och problemfri upplevelse för våra kunder. Därför arbetar vi hårt för att leverera den högsta kvaliteten på alla våra projekt och att alltid behandla våra kunder med respekt och ärlighet. Vi tror på att bygga långsiktiga relationer med våra kunder baserat på tillit och öppen kommunikation.</p>
+
+                    <p>Kontakta oss för att se hur vi kan hjälpa dig att förverkliga dina byggdrömmar på ett lyckligt och framgångsrikt sätt.</p>
+                </div>
+            </section>
+            <div className={styles.mainPhotoSecond}>
+                <Image
+                    src='/photos/mainSecond.jpg'
+                    alt="Main Photos"
+                    className={styles.vercelLogo}
+                    fill
+                    priority
+                />
             </div>
+            <section className={styles.descriptionWrapper}>
+                <div className={styles.description}>
+                    <p>En konstnärlig väggmålning är ett fantastiskt sätt att förvandla en tråkig vägg eller ett utrymme
+                        till ett imponerande konstverk. Det kan ge din inredning ett unikt och personligt utseende samtidigt
+                        som det bidrar till att skapa en speciell atmosfär och känsla i rummet. Konstnärliga väggmålningar
+                        kan utföras i olika stilar och tekniker för att passa dina behov och önskemål. Du kan välja en stor
+                        och färgglad mural som skapar en imponerande visuell effekt eller en mindre målning som passar
+                        perfekt i ett hörn. Oavsett vad du väljer kommer en konstnärlig väggmålning att göra ditt hem eller
+                        din arbetsplats unikt och personligt.</p>
+                </div>
+            </section>
         </section>
+
       <Footer/>
       {/*<main className={styles.main}>*/}
       {/*  <div className={styles.description}>*/}

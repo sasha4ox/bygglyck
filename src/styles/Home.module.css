@@ -13,6 +13,10 @@
   height: 600px;
 }
 
+.maxWidth {
+  max-width: 1500px;
+  margin: 0 auto;
+}
 
 .mainPhotoSecond {
   position: relative;
