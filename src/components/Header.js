@@ -3,6 +3,7 @@ import styles from '@/styles/Header.module.css'
 import Image from "next/image";
 import Navigation from "@/components/Navigation";
 import {useEffect} from "react";
+import Link from "next/link";
 
 function scrollFunction() {
     console.log(document.getElementsByTagName("header"))
