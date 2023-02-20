@@ -1,0 +1,38 @@
+.footer {
+    background: var(--second-color);
+    padding: 5px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--footer-fonts-color);
+    font-weight: bold;
+}
+
+.logoServiceWrapper {
+    align-items: center;
+    display: flex;
+    width: 100%;
+}
+
+.logoWrapper {
+    background: var(--main-color);
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.service {
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.schedule {
+    justify-self: end;
+    padding-right: 50px;
+    width: 300px;
+}
