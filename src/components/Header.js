@@ -63,10 +63,10 @@ export default function Header() {
                 </label>
 
                 <ul className="menu__box">
-                    <li><a className="menu__item" href='/'>Home</a></li>
-                    <li><a className="menu__item" href='/about-us'>OM OSS</a></li>
-                    <li><a className="menu__item" href='/verksamheter'>VERKSAMHETER</a></li>
-                    <li><a className="menu__item" href='/artistic-wall-painting'>KONSTNÄRLIG VÄGGMÅLNING</a></li>
+                    <li><Link className="menu__item" href='/'>Home</Link></li>
+                    <li><Link className="menu__item" href='/about-us'>OM OSS</Link></li>
+                    <li><Link className="menu__item" href='/verksamheter'>VERKSAMHETER</Link></li>
+                    <li><Link className="menu__item" href='/artistic-wall-painting'>KONSTNÄRLIG VÄGGMÅLNING</Link></li>
                 </ul>
             </div>
         </header>

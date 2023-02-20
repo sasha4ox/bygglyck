@@ -18,7 +18,7 @@ export default function ArtisticWallPainting() {
             </div>
             <section className={styles.descriptionWrapper}>
                 <div className={styles.description}>
-                    <p>   "Vi förstår att varje kunds vision och behov är unika, vilket är varför vi erbjuder
+                    <p>   `&quot;`Vi förstår att varje kunds vision och behov är unika, vilket är varför vi erbjuder
                         anpassade skisser och design för att skapa en unik väggmålning som passar deras specifika
                         önskemål. Vårt team av erfarna konstnärer och muralmålare kan skapa allt från realistiska
                         porträtt och landskap till abstrakta mönster och illusionistiska konstverk. Vi tar hänsyn
@@ -28,7 +28,7 @@ export default function ArtisticWallPainting() {
                         enklare designkoncept. Vi arbetar alltid med våra kunder för att hitta en lösning som passar
                         deras budget och behov, och vårt mål är alltid att erbjuda högkvalitativa anpassade
                         väggmålningar till rimliga priser. Kontakta oss idag för att diskutera dina önskemål
-                        och få en offert på en anpassad väggmålning som är skräddarsydd för dig."</p>
+                        och få en offert på en anpassad väggmålning som är skräddarsydd för dig.`&quot;`</p>
                 </div>
             </section>
             <Footer/>
