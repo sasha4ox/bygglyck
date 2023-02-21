@@ -25,6 +25,7 @@
     padding-left: 30px;
 }
 
+
 .service {
     margin-left: 50px;
     display: flex;
@@ -46,6 +47,7 @@
     .logoWrapper {
         width: 50px;
         height: 50px;
+        padding-left: 15px;
     }
     .service {
         margin-left: 20px;
@@ -53,6 +55,10 @@
     .schedule {
         padding-right: 0;
         display: none;
+    }
+    .footerLogo {
+        width: 55px;
+        height: 55px;
     }
 
 }

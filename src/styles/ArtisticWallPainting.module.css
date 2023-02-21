@@ -23,6 +23,7 @@
 
 .description p {
     text-indent: 25px;
+    color: black;
 }
 
 .maxWidth {
@@ -32,6 +33,6 @@
 
 @media (max-width: 950px) {
     .mainPhoto {
-        height: 250px; }
+        height: 200px; }
 }
 

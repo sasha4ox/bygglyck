@@ -10,7 +10,7 @@ export default function Footer() {
                     <Image
                         src="/logo-no-background.svg"
                         alt="Vercel Logo"
-                        className={styles.vercelLogo}
+                        className={styles.footerLogo}
                         width={105}
                         height={95}
                         priority
