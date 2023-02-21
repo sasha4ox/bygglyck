@@ -43,15 +43,15 @@ export default function Header() {
             <Navigation/>
             <section className={styles.socialWrapper}>
                 <a href={'https://www.instagram.com/'}><Image
-                    src="/icons8-instagram-48.svg"
-                    alt="Vercel Logo"
+                    src="/instagram-svgrepo-com.svg"
+                    alt="Instagram Logo"
                     fill
                     priority
                 /></a>
                 <a href={'https://www.facebook.com/'}>
                     <Image
-                    src="/icons8-facebook-48.svg"
-                    alt="Vercel Logo"
+                    src="/facebook.svg"
+                    alt="Facebook logo"
                     fill
                     priority
                     /></a>
@@ -64,10 +64,10 @@ export default function Header() {
                 </label>
 
                 <ul className="menu__box">
-                    <li><Link className="menu__item" href='/'>Home</Link></li>
-                    <li><Link className="menu__item" href='/about-us'>OM OSS</Link></li>
-                    <li><Link className="menu__item" href='/verksamheter'>VERKSAMHETER</Link></li>
-                    <li><Link className="menu__item" href='/artistic-wall-painting'>KONSTNÄRLIG VÄGGMÅLNING</Link></li>
+                    <li><Link className={styles.menuItem} href='/'>HOME</Link></li>
+                    <li><Link className={styles.menuItem} href='/about-us'>OM OSS</Link></li>
+                    <li><Link className={styles.menuItem} href='/verksamheter'>VERKSAMHETER</Link></li>
+                    <li><Link className={styles.menuItem} href='/artistic-wall-painting'>KONSTNÄRLIG VÄGGMÅLNING</Link></li>
                 </ul>
             </div>
         </header>

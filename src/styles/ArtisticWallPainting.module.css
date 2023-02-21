@@ -2,6 +2,7 @@
     position: relative;
     width: 100%;
     height: 500px;
+    border-bottom: 4px solid var(--main-color);
 }
 
 .descriptionWrapper {
@@ -23,3 +24,14 @@
 .description p {
     text-indent: 25px;
 }
+
+.maxWidth {
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+@media (max-width: 950px) {
+    .mainPhoto {
+        height: 250px; }
+}
+

@@ -8,7 +8,7 @@ export default function Navigation() {
         <nav className={styles.navigation}>
             <Link
                 className={router.pathname === "/" ? styles.active : styles.navLink }
-                href='/'>Home</Link>
+                href='/'>HOME</Link>
             <Link
                 className={router.pathname === "/about-us" ? styles.active : styles.navLink }
                 href='/about-us'>OM OSS</Link>
