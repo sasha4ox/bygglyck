@@ -15,15 +15,15 @@
 }
 
 .description {
-    width: 700px;
-    font-family: var(--font-mono);
+    width: 400px;
     border-left: solid 5px var(--main-color);
     padding-left: 20px;
+    width: 685px;
 }
 
 .description p {
+    color: var(--description-color);
     text-indent: 25px;
-    color: black;
 }
 
 .maxWidth {
@@ -34,5 +34,8 @@
 @media (max-width: 950px) {
     .mainPhoto {
         height: 200px; }
+    .description {
+        padding-right: 20px;
+    }
 }
 

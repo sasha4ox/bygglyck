@@ -24,15 +24,15 @@
 }
 
 .description {
-    width: 500px;
-    font-family: var(--font-mono);
+    width: 400px;
     border-left: solid 5px var(--main-color);
     padding-left: 20px;
+    width: 685px;
 }
 
 .description p {
+    color: var(--description-color);
     text-indent: 25px;
-    color: black;
 }
 
 .maxWidth {
@@ -46,9 +46,11 @@
     }
     .descriptionWrapperRight {
         padding: 25px 0;
+        padding-right: 20px;
     }
 
     .descriptionWrapperLeft {
         padding: 25px 0;
+        padding-right: 20px;
     }
 }

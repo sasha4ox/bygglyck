@@ -57,6 +57,18 @@
     text-decoration: none;
     transition-duration: .25s;
 }
+
+.menuItemActive {
+    display: block;
+    padding: 12px 24px;
+    color: var(--yellow);
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    transition-duration: .25s;
+}
+
 .menuItem:hover {
     background-color: var(--yellow);
 }

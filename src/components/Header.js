@@ -4,6 +4,7 @@ import Image from "next/image";
 import Navigation from "@/components/Navigation";
 import {useEffect} from "react";
 import Link from "next/link";
+import {useRouter} from "next/router";
 
 function scrollFunction() {
     console.log(document.getElementsByTagName("header"))
@@ -15,7 +16,7 @@ function scrollFunction() {
 }
 
 export default function Header() {
-
+    const router = useRouter();
     useEffect(() => {
         //add eventlistener to window
         window.addEventListener("scroll", scrollFunction, { passive: true });
@@ -64,10 +65,18 @@ export default function Header() {
                 </label>
 
                 <ul className="menu__box">
-                    <li><Link className={styles.menuItem} href='/'>HOME</Link></li>
-                    <li><Link className={styles.menuItem} href='/about-us'>OM OSS</Link></li>
-                    <li><Link className={styles.menuItem} href='/verksamheter'>VERKSAMHETER</Link></li>
-                    <li><Link className={styles.menuItem} href='/artistic-wall-painting'>KONSTNÄRLIG VÄGGMÅLNING</Link></li>
+                    <li><Link
+                        className={router.pathname === "/" ? styles.menuItemActive : styles.menuItem }
+                        href='/'>HOME</Link></li>
+                    <li><Link
+                        className={router.pathname === "/about-us" ? styles.menuItemActive : styles.menuItem }
+                        href='/about-us'>OM OSS</Link></li>
+                    <li><Link
+                        className={router.pathname === "/verksamheter" ? styles.menuItemActive : styles.menuItem }
+                        href='/verksamheter'>VERKSAMHETER</Link></li>
+                    <li><Link
+                        className={router.pathname === "/artistic-wall-painting" ? styles.menuItemActive : styles.menuItem }
+                        href='/artistic-wall-painting'>KONSTNÄRLIG VÄGGMÅLNING</Link></li>
                 </ul>
             </div>
         </header>
