@@ -45,6 +45,7 @@
 }
 
 .description p {
+  font-family: var(--font-mono);
   font-weight: 200;
   color: var(--description-color);
   text-indent: 25px;
