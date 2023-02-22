@@ -38,13 +38,14 @@
 }
 
 .description {
-  width: 400px;
+
   border-left: solid 5px var(--main-color);
   padding-left: 20px;
   width: 685px;
 }
 
 .description p {
+  font-weight: 200;
   color: var(--description-color);
   text-indent: 25px;
 }

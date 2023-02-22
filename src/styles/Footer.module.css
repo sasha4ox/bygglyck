@@ -5,7 +5,6 @@
     justify-content: space-between;
     align-items: center;
     color: var(--footer-fonts-color);
-    font-weight: bold;
 }
 
 .logoServiceWrapper {
