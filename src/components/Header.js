@@ -43,13 +43,13 @@ export default function Header() {
             />
             <Navigation/>
             <section className={styles.socialWrapper}>
-                <a href={'https://www.instagram.com/'} target='_blank'><Image
+                <a href={'https://www.instagram.com/'} target='_blank' rel="noreferrer"><Image
                     src="/instagram-svgrepo-com.svg"
                     alt="Instagram Logo"
                     fill
                     priority
                 /></a>
-                <a href={'https://www.facebook.com/ByggLyckAB'} target='_blank'>
+                <a href={'https://www.facebook.com/ByggLyckAB'} target='_blank' rel="noreferrer">
                     <Image
                     src="/facebook.svg"
                     alt="Facebook logo"
