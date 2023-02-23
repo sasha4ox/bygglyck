@@ -1,10 +1,10 @@
 import '@/styles/globals.css'
-import { Patua_One } from '@next/font/google';
+import {  Alegreya } from '@next/font/google';
 
-const patuaOne = Patua_One({ subsets: ['latin'], weight: '400' });
+const alegreya = Alegreya({ subsets: ['latin'], weight: '400' });
 export default function App({ Component, pageProps }) {
   return (
-          <div className={patuaOne.className}>
+          <div className={alegreya.className}>
             <Component {...pageProps} />
           </div>
       )
