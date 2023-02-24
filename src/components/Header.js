@@ -32,7 +32,7 @@ export default function Header() {
             <meta property="og:description" content="ByggLyck - byggföretag i Sverige där vi levererar högkvalitativa byggtjänster och konstnärlig väggmålning."></meta>
             <meta property="og:image" content="https://bygglyck.se/_next/image?url=%2Fphotos%2Fomoss.jpg&w=1920&q=75"></meta>
             <meta name="description" content="ByggLyck - byggföretag i Sverige där vi levererar högkvalitativa byggtjänster och konstnärlig väggmålning." />
-            <meta name="keywords" content="Byggtjänster, Byggföretag, Renovering" ></meta>
+            <meta name="keywords" content="Byggtjänster, Byggföretag, Renovering, Byggprojekt, Byggarbetsplats, Byggmaterial, Byggnadsteknik,Byggplanering, Entreprenadarbete, Hantverkstjänster, Takläggning, Fasadrenovering, Badrumsrenovering, Köksrenovering,Golvslipning, Måleri- och,tapetseringstjänster, Plattsättning, Snickeritjänster, Anläggningsarbeten,Byggkonsultation, Energibesparing, Byggnadsunderhåll, Isolering, Ventilation, Brandskydd, Fastighetsrenovering, Ljudisolering, Byggreparationer, Byggbesiktning, Byggledning, Byggkonstruktion, Byggskador, Byggningssnickeri, Prefab-hus, Tillbyggnad, Ombyggnad, Fönsterrenovering, Trapprenovering, Poolbyggande, Anpassade väggmålningar, Muralmålning, Konstnärlig väggmålning, Illusionsmålningar, Skisser och design, Konstverk för hemmet, Målningstjänster för inomhusväggar, Konstnärer för väggdekoration, Priser för väggmålningar, Konstverk för företag," ></meta>
             <meta name="robots" content="index, follow"></meta>
             <meta name="viewport" content="width=device-width, initial-scale=1" />
             <link rel="icon" href="/favicon.ico" />
