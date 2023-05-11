@@ -7,7 +7,6 @@ import Link from "next/link";
 import {useRouter} from "next/router";
 
 function scrollFunction() {
-    console.log(document.getElementsByTagName("header"))
     if (document.body.scrollTop > 150 || document.documentElement.scrollTop > 150) {
         document.getElementById("header").classList.add(styles.smallHeader)
     } else {
