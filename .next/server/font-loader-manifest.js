@@ -1,7 +1,7 @@
 self.__FONT_LOADER_MANIFEST={
   "pages": {
     "/_app": [
-      "static/media/cc4aae1d16458e20.p.woff2"
+      "static/media/c0bcb73391d0c4c4.p.woff2"
     ]
   },
   "app": {}

@@ -37,14 +37,17 @@ export default function Header() {
             <link rel="icon" href="/favicon.ico" />
         </Head>
         <header className={styles.header} id={'header'}>
-            <Image
+            <Link href='/'>
+                <Image
                 src="/logo-no-background.svg"
                 alt="Bygg Lyck AB Logo"
                 className={styles.vercelLogo}
                 width={130}
                 height={80}
                 priority
-            />
+                 />
+            </Link>
+            
             <Navigation/>
             <section className={styles.socialWrapper}>
                 <a href={'https://www.instagram.com/bygglyck/'} target='_blank' rel="noreferrer"><Image
