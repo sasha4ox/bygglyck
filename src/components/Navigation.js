@@ -11,7 +11,7 @@ export default function Navigation() {
                 href='/'>HOME</Link>
             <Link
                 className={router.pathname === "/about-us" ? styles.active : styles.navLink }
-                href='/about-us'>OM OSS</Link>
+                href='/about-us'>Företagsinfo</Link>
             <Link
                 className={router.pathname === "/verksamheter" ? styles.active : styles.navLink }
                 href='/verksamheter'>VERKSAMHETER</Link>

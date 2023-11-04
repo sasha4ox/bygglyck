@@ -19,7 +19,7 @@ export default function Footer() {
                 <div className={styles.service}>
                     <p>Sverige</p>
                     <a href='tel:070 07 07 130'>Tel: 070 07 07 130</a>
-                    <a href='mailto:bygglyck@gmail.com'>Mail: bygglyck@gmail.com</a>
+                    <a href='mailto:info@Bygglyck.se'>Mail: info@Bygglyck.se</a>
                 </div>
             </section>
 

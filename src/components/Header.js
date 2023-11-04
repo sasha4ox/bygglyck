@@ -7,6 +7,8 @@ import Link from "next/link";
 import {useRouter} from "next/router";
 
 function scrollFunction() {
+    const isMobile = window.innerWidth < 950;
+    if (isMobile) return;
     if (document.body.scrollTop > 150 || document.documentElement.scrollTop > 150) {
         document.getElementById("header").classList.add(styles.smallHeader)
     } else {
@@ -14,8 +16,11 @@ function scrollFunction() {
     }
 }
 
+
+
 export default function Header() {
     const router = useRouter();
+
     useEffect(() => {
         //add eventlistener to window
         window.addEventListener("scroll", scrollFunction, { passive: true });
@@ -77,7 +82,7 @@ export default function Header() {
                         href='/'>HOME</Link></li>
                     <li><Link
                         className={router.pathname === "/about-us" ? styles.menuItemActive : styles.menuItem }
-                        href='/about-us'>OM OSS</Link></li>
+                        href='/about-us'>Företagsinfo</Link></li>
                     <li><Link
                         className={router.pathname === "/verksamheter" ? styles.menuItemActive : styles.menuItem }
                         href='/verksamheter'>VERKSAMHETER</Link></li>
