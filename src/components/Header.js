@@ -55,20 +55,30 @@ export default function Header() {
             
             <Navigation/>
             <section className={styles.socialWrapper}>
+                <a href={'https://www.linkedin.com/company/bygglyck/'} target='_blank' rel="noreferrer">
+                        <Image
+                        src="/linkedin.svg"
+                        alt="Facebook logo"
+                        fill
+                        priority
+                        />
+                </a>
                 <a href={'https://www.instagram.com/bygglyck/'} target='_blank' rel="noreferrer"><Image
                     src="/instagram-svgrepo-com.svg"
                     alt="Instagram Logo"
                     fill
                     priority
-                /></a>
+                    />
+                </a>
                 <a href={'https://www.facebook.com/ByggLyckAB'} target='_blank' rel="noreferrer">
                     <Image
                     src="/facebook.svg"
                     alt="Facebook logo"
                     fill
                     priority
-                    /></a>
-
+                    />
+                </a>
+                
             </section>
             <div className={styles.hamburgerMenu}>
                 <input id="menu__toggle" type="checkbox"/>
@@ -82,7 +92,7 @@ export default function Header() {
                         href='/'>HOME</Link></li>
                     <li><Link
                         className={router.pathname === "/about-us" ? styles.menuItemActive : styles.menuItem }
-                        href='/about-us'>Företagsinfo</Link></li>
+                        href='/about-us'>FÖRETAGSINFO</Link></li>
                     <li><Link
                         className={router.pathname === "/verksamheter" ? styles.menuItemActive : styles.menuItem }
                         href='/verksamheter'>VERKSAMHETER</Link></li>

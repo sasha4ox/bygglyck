@@ -31,6 +31,71 @@
     margin: 0 auto;
 }
 
+.workersPhotoWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: var(--background-color);
+    width: 100%;
+    padding: 25px 0 200px;
+    border-top: 4px solid var(--main-color);
+}
+
+.logoWrapper {
+    background: var(--main-color);
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 30px;
+    margin-bottom: 15px;
+}
+
+.h1 {
+    color: var(--main-color);
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 45px;
+}
+
+.workerPhotos {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.circlePhoto {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 15px;
+}
+
+.circlePhotoImgLogo {
+    position: relative !important;
+}
+
+.circlePhotoImg {
+    border-radius: 50%;
+}
+
+.workerAbout {
+    color: var(--main-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.workerName {
+    font-weight: 600;
+}
+
+.workerPosition {
+    text-decoration: underline;
+}
 
 @media (max-width: 950px) {
     .mainPhoto {
@@ -39,5 +104,17 @@
 
     .description {
         padding-right: 20px;
+    }
+    
+    .workerPhotos {
+        flex-direction: column;
+    }
+
+    .workerAbout {
+        margin-top: 25px;
+    }
+
+    .workersPhotoWrapper {
+        padding-bottom: 25px
     }
 }
