@@ -2,6 +2,8 @@ import styles from "@/styles/About.module.css";
 import Header from "@/components/Header";
 import Image from "next/image";
 import Footer from "@/components/Footer";
+import CompaniesLogo from "@/components/CompaniesLogo";
+
 
 export default function AboutUs() {
     return (
@@ -10,13 +12,15 @@ export default function AboutUs() {
             <section className={styles.maxWidth}>
                 <div className={styles.mainPhoto}>
                     <Image
-                        src='/photos/omoss.jpg'
-                        alt="Main Photos"
-                        className={styles.vercelLogo}
-                        fill
-                        priority
-                    />
+                                src='/photos/omoss.jpg'
+                                alt="Main Photos"
+                                className={styles.vercelLogo}
+                                fill
+                                priority
+                            />
+                   
                 </div>
+                <CompaniesLogo />
                 <section className={styles.descriptionWrapper}>
                     <div className={styles.description}>
                         <p>   Vi är ett professionellt byggföretag som strävar efter att leverera högkvalitativa byggtjänster

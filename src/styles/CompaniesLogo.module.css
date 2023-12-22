@@ -1,0 +1,19 @@
+.companies {
+    position: relative;
+    display: flex;
+    height: 150px;
+    padding-left: 20px;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    border-bottom: 4px solid var(--main-color);
+}
+
+@media (max-width: 765px) {
+    .companies {
+        flex-direction: column;
+        height: auto;
+        gap: 5;
+        padding: 20px 0;
+    }
+}
