@@ -2,8 +2,5 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/about-us": "pages/about-us.js",
-  "/artistic-wall-painting": "pages/artistic-wall-painting.js",
-  "/": "pages/index.js",
-  "/verksamheter": "pages/verksamheter.js"
+  "/": "pages/index.js"
 }

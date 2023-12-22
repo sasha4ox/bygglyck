@@ -7,47 +7,60 @@ export default function CompaniesLogo() {
     const isSmallMobileScreen = globalThis.innerWidth < 765
     return (
         <section className={styles.companies}>
-                     <Image
-                            src='/companies/logotype.png'
-                            alt="Main Photos"
-                            className={styles.vercelLogo}
-                            width={isMobile? 100 : 200}
-                            height={isSmallMobileScreen ? 45 :60}
-                            priority
-                        />
-                    <Image
-                            src='/companies/id06.png'
-                            alt="Main Photos"
-                            className={styles.vercelLogo}
-                            width={isMobile? 100 : 200}
-                            height={isSmallMobileScreen ? 30 :100}
-                            priority
-                        />
-                         <Image
-                            src='/companies/Trygg-Hansa.svg'
-                            alt="Main Photos"
-                            className={styles.hansa}
-                            width={isMobile? 100 : 200}
-                            height={isSmallMobileScreen ? 30 :100}
-                            priority
-                        />
-                    <Image
-                            src='/companies/logo_white.svg'
-                            alt="Main Photos"
-                            className={styles.vercelLogo}
-                            width={isMobile? 100 : 200}
-                            height={isSmallMobileScreen ? 30 :100}
-                            priority
-                        />
-                        <Image
-                            src='/companies/logo-default.svg'
-                            alt="Main Photos"
-                            className={styles.vercelLogo}
-                            width={isMobile? 100 : 200}
-                            height={isSmallMobileScreen ? 30 :100}
-                            priority
-                        />
-                </section>
+            <a href={'https://www.byggnads.se/'} target='_blank' rel="noreferrer">
+                <Image
+                    src='/companies/logotype.png'
+                    alt="Main Photos"
+                    className={styles.vercelLogo}
+                    width={isMobile? 100 : 200}
+                    height={isSmallMobileScreen ? 45 :60}
+                    priority
+                />
+            </a>
+            <a href={'https://id06.se/'} target='_blank' rel="noreferrer">
+                <Image
+                    src='/companies/id06.png'
+                    alt="Main Photos"
+                    className={styles.vercelLogo}
+                    width={isMobile? 100 : 200}
+                    height={isSmallMobileScreen ? 30 :100}
+                    priority
+                />
+            </a>
+                    
+            <a href={'https://www.trygghansa.se/'} target='_blank' rel="noreferrer">
+                <Image
+                    src='/companies/Trygg-Hansa.svg'
+                    alt="Main Photos"
+                    className={styles.hansa}
+                    width={isMobile? 100 : 200}
+                    height={isSmallMobileScreen ? 30 :100}
+                    priority
+                />
+            </a>
+            
+            <a href={'https://www.fora.se/'} target='_blank' rel="noreferrer">
+                <Image
+                    src='/companies/logo_white.svg'
+                    alt="Main Photos"
+                    className={styles.vercelLogo}
+                    width={isMobile? 100 : 200}
+                    height={isSmallMobileScreen ? 30 :100}
+                    priority
+                />
+            </a>
+                    
+            <a href={'https://www.hetaarbeten.se/'} target='_blank' rel="noreferrer">
+                <Image
+                    src='/companies/logo-default.svg'
+                    alt="Main Photos"
+                    className={styles.vercelLogo}
+                    width={isMobile? 100 : 200}
+                    height={isSmallMobileScreen ? 30 :100}
+                    priority
+                />
+            </a>   
+        </section>
    )
 
 }
