@@ -2,7 +2,6 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import styles from "@/styles/ArtisticWallPainting.module.css";
 import Image from "next/image";
-import CompaniesLogo from "@/components/CompaniesLogo";
 
 export default function ArtisticWallPainting() {
     return (
@@ -18,7 +17,6 @@ export default function ArtisticWallPainting() {
                         priority
                     />
                 </div>
-                <CompaniesLogo />
                 <section className={styles.descriptionWrapper}>
                     <div className={styles.description}>
                         <p>   &quot;Vi förstår att varje kunds vision och behov är unika, vilket är varför vi erbjuder

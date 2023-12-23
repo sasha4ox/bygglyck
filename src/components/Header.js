@@ -39,6 +39,17 @@ export default function Header() {
             <meta name="keywords" content="Byggtjänster, Byggföretag, Renovering, Byggprojekt, Byggarbetsplats, Byggmaterial, Byggnadsteknik,Byggplanering, Entreprenadarbete, Hantverkstjänster, Takläggning, Fasadrenovering, Badrumsrenovering, Köksrenovering,Golvslipning, Måleri- och,tapetseringstjänster, Plattsättning, Snickeritjänster, Anläggningsarbeten,Byggkonsultation, Energibesparing, Byggnadsunderhåll, Isolering, Ventilation, Brandskydd, Fastighetsrenovering, Ljudisolering, Byggreparationer, Byggbesiktning, Byggledning, Byggkonstruktion, Byggskador, Byggningssnickeri, Prefab-hus, Tillbyggnad, Ombyggnad, Fönsterrenovering, Trapprenovering, Poolbyggande, Anpassade väggmålningar, Muralmålning, Konstnärlig väggmålning, Illusionsmålningar, Skisser och design, Konstverk för hemmet, Målningstjänster för inomhusväggar, Konstnärer för väggdekoration, Priser för väggmålningar, Konstverk för företag," ></meta>
             <meta name="robots" content="index, follow"></meta>
             <meta name="viewport" content="width=device-width, initial-scale=1" />
+            <link
+  rel="stylesheet"
+  type="text/css"
+  charset="UTF-8"
+  href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css"
+/>
+<link
+  rel="stylesheet"
+  type="text/css"
+  href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
+/>
             <link rel="icon" href="/favicon.ico" />
         </Head>
         <header className={styles.header} id={'header'}>

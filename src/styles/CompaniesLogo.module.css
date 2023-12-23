@@ -1,19 +1,23 @@
 .companies {
     position: relative;
     display: flex;
-    height: 150px;
-    padding-left: 20px;
+    height: 100px;
+    padding-left: 100px;
     align-items: center;
     justify-content: center;
     gap: 30px;
-    border-bottom: 4px solid var(--main-color);
+    max-width: 1500px;
+    margin: 0 auto;
+    background: var(--background-color);
+    /* border-bottom: 2px solid var(--main-color); */
+    /* border-top: 4px solid var(--main-color); */
 }
 
 @media (max-width: 765px) {
     .companies {
-        flex-direction: column;
+        /* flex-direction: column; */
         height: auto;
         gap: 5;
-        padding: 20px 0;
+        padding: 20px;
     }
 }

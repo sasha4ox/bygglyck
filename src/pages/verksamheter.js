@@ -2,7 +2,6 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import styles from "@/styles/Verksamheter.module.css";
 import Image from "next/image";
-import CompaniesLogo from "@/components/CompaniesLogo";
 
 export default function Verksamheter() {
     return (
@@ -18,7 +17,6 @@ export default function Verksamheter() {
                         priority
                     />
                 </div>
-                <CompaniesLogo />
                 <section className={styles.descriptionWrapperLeft}>
                     <div className={styles.description}>
                         <p>&quot;Vi är ett byggföretag som specialiserar oss på högkvalitativt snickeri och träbearbetning.

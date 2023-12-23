@@ -1,9 +1,11 @@
 import styles from '@/styles/Footer.module.css'
 import Image from "next/image";
-import Navigation from "@/components/Navigation";
+import CompaniesLogo from "@/components/CompaniesLogo";
 
 export default function Footer() {
     return (
+        <>
+        <CompaniesLogo />
         <footer className={styles.footer}>
             <section className={styles.logoServiceWrapper}>
                 <div className={styles.logoWrapper}>
@@ -31,6 +33,7 @@ export default function Footer() {
             </div>
 
         </footer>
+        </>
    )
 
 }

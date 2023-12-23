@@ -4,7 +4,6 @@ import { Inter } from '@next/font/google'
 import styles from '@/styles/Home.module.css'
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import CompaniesLogo from "@/components/CompaniesLogo";
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -22,7 +21,6 @@ export default function Home() {
                     priority
                 />
             </div>
-            <CompaniesLogo />
             <section className={styles.descriptionWrapper}>
                 <div className={styles.description}>
                     <p>Välkommen till vårt byggföretag i Sverige där vi levererar högkvalitativa byggtjänster och  konstnärlig väggmålning. Vi är en pålitlig partner som alltid strävar efter att överträffa våra kunders förväntningar och leverera fantastiska resultat varje gång.</p>
