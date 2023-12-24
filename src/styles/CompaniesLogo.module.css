@@ -7,9 +7,9 @@
     justify-content: center;
     gap: 30px;
     max-width: 1500px;
-    margin: 0 auto;
+    margin: 0 auto 15px;
     background: var(--background-color);
-    /* border-bottom: 2px solid var(--main-color); */
+    border-bottom: 4px solid var(--main-color);
     /* border-top: 4px solid var(--main-color); */
 }
 
@@ -19,5 +19,6 @@
         height: auto;
         gap: 5;
         padding: 20px;
+        margin: 0 auto;
     }
 }
