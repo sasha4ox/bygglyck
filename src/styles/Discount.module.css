@@ -58,7 +58,7 @@
 .form input {
     outline: none;
     border: none;
-    background: white;
+    background: #fff;
     color: black;
     padding: 5px;
 }
@@ -66,6 +66,7 @@
 .button {
     width: 300px;
     background: #007FFF;
+    color: #fff;
     border: none;
     height: 30px;
     border-radius: 5px;

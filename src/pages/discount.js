@@ -49,7 +49,7 @@ export default function Discount() {
             <section className={styles.root}>
                 <h1 className={styles.heading}>rabattkort för bygg- och renoveringstjänster för år 2024</h1>
 
-                <section className={styles.description}>Denna kort ger exklusiva rabatter på olika tjänster inom byggande och renovering för år 2024.
+                <section className={styles.description}>Detta kort ger exklusiva rabatter på olika tjänster inom byggande och renovering för år 2024.
                  Antalet kort är begränsat, så passa på att utnyttja detta unika erbjudande för att ge nytt liv åt ditt hem eller arbetsplats.</section>
                 <section className={styles.rootForm}>
                     <form className={styles.form} onSubmit={submitHandler}>
