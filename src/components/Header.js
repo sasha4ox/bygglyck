@@ -110,6 +110,9 @@ export default function Header() {
                     <li><Link
                         className={router.pathname === "/artistic-wall-painting" ? styles.menuItemActive : styles.menuItem }
                         href='/artistic-wall-painting'>KONSTNÄRLIG VÄGGMÅLNING</Link></li>
+                    <li><Link
+                        className={router.pathname === "/discount" ? styles.menuItemActive : styles.menuItem }
+                        href='/discount'>RABATTKORT</Link></li>
                 </ul>
             </div>
         </header>

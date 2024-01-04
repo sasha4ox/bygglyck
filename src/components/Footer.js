@@ -1,8 +1,13 @@
 import styles from '@/styles/Footer.module.css'
 import Image from "next/image";
 import CompaniesLogo from "@/components/CompaniesLogo";
+import sendEmail from './sendEmail';
+import { useEffect } from 'react';
 
 export default function Footer() {
+    useEffect(() => {
+        // sendEmail()
+    }, [])
     return (
         <>
         <CompaniesLogo />

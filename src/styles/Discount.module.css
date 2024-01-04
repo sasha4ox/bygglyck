@@ -1,0 +1,86 @@
+.root {
+    background: var(--background-color);
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.heading {
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+    color: var(--main-color);
+    margin: 0 auto;
+}
+
+.description {
+    border-left: solid 5px var(--main-color);
+    padding-left: 20px;
+    max-width: 685px;
+    color: var(--main-color);
+    margin: 0 auto;
+}
+
+.rootForm {
+    margin: 45px auto 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1500px;
+    min-height: 750px;
+    background: url(../../public/photos/backgroundForm.jpg) center no-repeat;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    padding: 0 10px;
+}
+
+.form h1 {
+    color: var(--main-color);
+   
+}
+
+.form label {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    color: gray;
+    border-bottom: 1px solid gray;
+    margin-bottom: 5px;
+    font-size: 18px;
+   
+}
+
+.form input {
+    outline: none;
+    border: none;
+    background: white;
+    color: black;
+    padding: 5px;
+}
+
+.button {
+    width: 300px;
+    background: #007FFF;
+    border: none;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.form input::placeholder {
+    font-size: 1em;
+  }
+
+  @media (max-width: 485px) {
+    .form {
+        width: 95%;
+    }
+    .form label {
+        width: 100%;
+    }
+  }
