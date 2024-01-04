@@ -26,6 +26,15 @@
     color: #fff;
 }
 
+.navLinkPromoMod {
+    margin: 0 10px;
+    color: #fff;
+    display: inline-block;
+    animation: flip 10s infinite;
+}
+
+
+
 .active {
     color: var(--yellow);
     margin: 0 10px;
@@ -57,6 +66,19 @@
     text-decoration: none;
     transition-duration: .25s;
 }
+
+.menuItemPromoted {
+    display: block;
+    padding: 12px 24px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    transition-duration: .25s;
+    animation: flip 10s infinite;
+}
+
 
 .menuItemActive {
     display: block;
@@ -90,3 +112,21 @@
     }
 
 }
+
+@keyframes flip {
+    20% {
+        color: orange;
+    }
+
+    40% {
+        color: red;
+    }
+
+    60% {
+        color: lawngreen;
+    }
+
+    80% {
+        color: yellow;  
+    }
+  }

@@ -111,7 +111,7 @@ export default function Header() {
                         className={router.pathname === "/artistic-wall-painting" ? styles.menuItemActive : styles.menuItem }
                         href='/artistic-wall-painting'>KONSTNÄRLIG VÄGGMÅLNING</Link></li>
                     <li><Link
-                        className={router.pathname === "/discount" ? styles.menuItemActive : styles.menuItem }
+                        className={router.pathname === "/discount" ? styles.menuItemActive : styles.menuItemPromoted }
                         href='/discount'>RABATTKORT</Link></li>
                 </ul>
             </div>

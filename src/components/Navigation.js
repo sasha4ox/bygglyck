@@ -1,7 +1,6 @@
 import Link from "next/link";
 import { useRouter } from "next/router";
 import styles from '@/styles/Header.module.css'
-import sendEmail from './sendEmail'
 
 export default function Navigation() {
     const router = useRouter();
@@ -22,7 +21,7 @@ export default function Navigation() {
                 className={router.pathname === "/artistic-wall-painting" ? styles.active : styles.navLink }
                 href='/artistic-wall-painting'>KONSTNÄRLIG VÄGGMÅLNING</Link>
             <Link
-                className={pathName === "/discount" ? styles.active : styles.navLink }
+                className={pathName === "/discount" ? styles.active : styles.navLinkPromoMod }
                 href='/discount'>RABATTKORT</Link>
         </nav>
     )
