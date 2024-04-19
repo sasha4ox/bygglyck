@@ -100,19 +100,24 @@ export default function Header() {
                 <ul className="menu__box">
                     <li><Link
                         className={router.pathname === "/" ? styles.menuItemActive : styles.menuItem }
-                        href='/'>HOME</Link></li>
+                        href='/'>HOME</Link>
+                    </li>
                     <li><Link
                         className={router.pathname === "/about-us" ? styles.menuItemActive : styles.menuItem }
-                        href='/about-us'>FÖRETAGSINFO</Link></li>
+                        href='/about-us'>FÖRETAGSINFO</Link>
+                    </li>
                     <li><Link
                         className={router.pathname === "/verksamheter" ? styles.menuItemActive : styles.menuItem }
-                        href='/verksamheter'>VERKSAMHETER</Link></li>
+                        href='/verksamheter'>VERKSAMHETER</Link>
+                    </li>
                     <li><Link
                         className={router.pathname === "/artistic-wall-painting" ? styles.menuItemActive : styles.menuItem }
-                        href='/artistic-wall-painting'>KONSTNÄRLIG VÄGGMÅLNING</Link></li>
-                    <li><Link
+                        href='/artistic-wall-painting'>KONSTNÄRLIG VÄGGMÅLNING</Link>
+                    </li>
+                    {/* <li><Link
                         className={router.pathname === "/discount" ? styles.menuItemActive : styles.menuItemPromoted }
-                        href='/discount'>RABATTKORT</Link></li>
+                        href='/discount'>RABATTKORT</Link>
+                    </li> */}
                 </ul>
             </div>
         </header>

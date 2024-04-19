@@ -20,9 +20,9 @@ export default function Navigation() {
             <Link
                 className={router.pathname === "/artistic-wall-painting" ? styles.active : styles.navLink }
                 href='/artistic-wall-painting'>KONSTNÄRLIG VÄGGMÅLNING</Link>
-            <Link
+            {/* <Link
                 className={pathName === "/discount" ? styles.active : styles.navLinkPromoMod }
-                href='/discount'>RABATTKORT</Link>
+                href='/discount'>RABATTKORT</Link> */}
         </nav>
     )
 
