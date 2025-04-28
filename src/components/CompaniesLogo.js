@@ -35,7 +35,7 @@ export default function CompaniesLogo() {
                         alt="Main Photos"
                         className={styles.vercelLogo}
                         width={isMobile ? 150 : 170}
-                        height={isSmallMobileScreen ? 20 : 55}
+                        height={isSmallMobileScreen ? 45 : 55}
                         priority
                     />
                 </a>
@@ -47,7 +47,7 @@ export default function CompaniesLogo() {
                         alt="Main Photos"
                         className={styles.hansa}
                         width={isMobile ? 150 : 150}
-                        height={isSmallMobileScreen ? 20 : 50}
+                        height={isSmallMobileScreen ? 45 : 50}
                         priority
                     />
                 </a>
@@ -59,7 +59,7 @@ export default function CompaniesLogo() {
                         alt="Main Photos"
                         className={styles.vercelLogo}
                         width={isMobile? 100 : 150}
-                        height={isSmallMobileScreen ? 20 : 50}
+                        height={isSmallMobileScreen ? 45 : 50}
                         priority
                     />
                 </a>
@@ -71,7 +71,7 @@ export default function CompaniesLogo() {
                         alt="Main Photos"
                         className={styles.vercelLogo}
                         width={isMobile ? 100 : 150}
-                        height={isSmallMobileScreen ? 20 : 50}
+                        height={isSmallMobileScreen ? 45 : 50}
                         priority
                     />
                 </a>
@@ -83,7 +83,7 @@ export default function CompaniesLogo() {
                         alt="Main Photos"
                         className={styles.vercelLogo}
                         width={isMobile ? 100 : 150}
-                        height={isSmallMobileScreen ? 20 : 100}
+                        height={isSmallMobileScreen ? 67 : 100}
                         priority
                     />
                 </a>
