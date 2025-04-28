@@ -2,5 +2,8 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/discount": "pages/discount.js"
+  "/verksamheter": "pages/verksamheter.js",
+  "/about-us": "pages/about-us.js",
+  "/cleaning": "pages/cleaning.js",
+  "/bathroom": "pages/bathroom.js"
 }

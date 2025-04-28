@@ -10,23 +10,21 @@ export default function AboutUs() {
             <section className={styles.maxWidth}>
                 <div className={styles.mainPhoto}>
                     <Image
-                                src='/photos/omoss.jpg'
-                                alt="Main Photos"
-                                className={styles.vercelLogo}
-                                fill
-                                priority
-                            />
+                        src='/photos/omoss.jpg'
+                        alt="Main Photos"
+                        className={styles.vercelLogo}
+                        fill
+                        priority
+                    />
                    
                 </div>
                 <section className={styles.descriptionWrapper}>
                     <div className={styles.description}>
-                        <p>   Vi är ett professionellt byggföretag som strävar efter att leverera högkvalitativa byggtjänster
-                            till våra kunder. Oavsett om det gäller byggnation av en ny fastighet, renovering av ett
-                            befintligt hem eller kommersiell fastighet, eller mindre projekt som till exempel
-                            installation av tak eller byte av fönster, kan vi hjälpa till.</p>
-                        <p>Vi har erfarna och kunniga hantverkare som arbetar noggrant och effektivt för att uppfylla våra kunders önskemål och behov. Vi tror på att bygga starka relationer med våra kunder genom att lyssna på deras visioner och samarbeta med dem för att skapa det perfekta resultatet.</p>
-                        <p> Som ett svenskt företag förstår vi vikten av att följa strikta byggregler och riktlinjer. Vi arbetar alltid med hänsyn till säkerhet och miljö för att säkerställa att våra projekt genomförs på ett hållbart och ansvarsfullt sätt.</p>
-                        <p>Kontakta oss för att diskutera dina byggbehov. Vi erbjuder fria offertförfrågor och är redo att hjälpa dig med ditt projekt. Tillsammans kan vi skapa bygglösningar som du kommer att älska och som du kan lita på att de är utförda på ett professionellt och pålitligt sätt.</p>
+                        <p><b>ByggLyck AB</b> är ett familjeföretag där både ledningen och det operativa teamet utgör kärnan i verksamheten. Vi tror på öppen kommunikation, där varje medarbetare har en röst och aktivt deltar i analys och diskussion kring våra projekt. Detta skapar en stark sammanhållning och ett engagemang som genomsyrar hela företaget.</p>
+                        <br/>
+                        <p>Vi började vår resa i byggbranschen redan år 2010, främst som yrkesarbetare. Genom åren har vi samlat på oss värdefull erfarenhet ute på fältet, vilket idag speglas i hur vi driver verksamheten. År 2023 tog vi nästa steg och grundade ByggLyck AB – med målet att kombinera vår praktiska kunskap med en strukturerad och professionell organisation.</p>
+                        <br/>
+                        <p>Hos oss möts gedigen hantverkserfarenhet, nytänkande och familjär arbetsmiljö – något vi är stolta över att kunna erbjuda våra kunder.</p>
                     </div>
                 </section>
                 <section className={styles.workersPhotoWrapper}>
@@ -91,7 +89,63 @@ export default function AboutUs() {
                         </div>
                         
                     </section>
-                    
+                    <section className={styles.descriptionWrapper}>
+                        <div className={styles.description}>
+                            <h1>Partners i kvalitet</h1>
+                            <p><b>På ByggLyck</b> väljer vi kvalitet i varje steg av byggprocessen. Därför samarbetar vi endast med professionella och pålitliga leverantörer av byggmaterial. Våra partners — <b>Södermalm Trä, Beijer, Centro, LIP och NA Svensson</b> — är företag med starkt renommé som erbjuder certifierade produkter av högsta kvalitet.</p>
+                            <br/>
+                            <p>De förser oss inte bara med material, utan också med fullständig teknisk dokumentation och specifikationer, vilket säkerställer att allt uppfyller branschens krav på kvalitet och säkerhet. Vi lägger även stor vikt vid miljöansvar — våra leverantörer arbetar enligt principer för hållbar utveckling och ansvarsfull resursanvändning.</p>
+                            <br/>
+                            <p>Det är tack vare dessa samarbeten som vi kan leverera trygga och långsiktiga bygglösningar till våra kunder.</p>
+                        </div>
+                    </section>
+                    <section className={styles.partnersLogo}>
+                    <a href="https://nasvensson.woody.se/" target="_blank" className={styles.circlePhoto}>
+                                <Image
+                                    src='/photos/companiesLogo/1.png'
+                                    alt="Worker photo"
+                                    className={styles.circlePhotoImg}
+                                    fill
+                                    // priority
+                                />
+                            </a>
+                            <a href="https://lip.dk/se/" target="_blank" className={styles.circlePhoto}>
+                                <Image
+                                    src='/photos/companiesLogo/2.png'
+                                    alt="Worker photo"
+                                    className={styles.circlePhotoImg}
+                                    fill
+                                    // priority
+                                />
+                            </a>
+                            <a href="https://www.nordstroms.se/vara-anlaggningar/sodermalms-tra-arsta/" target="_blank" className={styles.circlePhoto}>
+                                <Image
+                                   src='/photos/companiesLogo/3.png'
+                                    alt="Worker photo"
+                                    className={styles.circlePhotoImg}
+                                    fill
+                                    // priority
+                                />
+                            </a>
+                            <a href="https://www.beijerbygg.se/privat" target="_blank" className={styles.circlePhoto}>
+                                <Image
+                                   src='/photos/companiesLogo/4.png'
+                                    alt="Worker photo"
+                                    className={styles.circlePhotoImg}
+                                    fill
+                                    // priority
+                                />
+                            </a>
+                            <a href="https://www.centro.se/" target="_blank" className={styles.circlePhoto}>
+                                <Image
+                                    src='/photos/companiesLogo/5.png'
+                                    alt="Worker photo"
+                                    className={styles.circlePhotoImg}
+                                    fill
+                                    // priority
+                                />
+                            </a>
+                    </section>
                     {/* <div className={styles.description}>
                         <p>   Vi är ett professionellt byggföretag som strävar efter att leverera högkvalitativa byggtjänster
                             till våra kunder. Oavsett om det gäller byggnation av en ny fastighet, renovering av ett

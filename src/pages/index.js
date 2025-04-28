@@ -30,24 +30,42 @@ export default function Home() {
                     <p>Kontakta oss för att se hur vi kan hjälpa dig att förverkliga dina byggdrömmar på ett lyckligt och framgångsrikt sätt.</p>
                 </div>
             </section>
-            <div className={styles.mainPhotoSecond}>
-                <Image
-                    src='/photos/mainSecond.jpg'
-                    alt="Main Photos"
-                    className={styles.vercelLogo}
-                    fill
-                    priority
-                />
+            <div className={styles.video}>
+                <video autoPlay muted loop playsInline>         
+                    <source src="/video/video2.mp4" type="video/mp4"/>       
+                </video>
             </div>
             <section className={styles.descriptionWrapper}>
                 <div className={styles.description}>
-                    <p>En konstnärlig väggmålning är ett fantastiskt sätt att förvandla en tråkig vägg eller ett utrymme
-                        till ett imponerande konstverk. Det kan ge din inredning ett unikt och personligt utseende samtidigt
-                        som det bidrar till att skapa en speciell atmosfär och känsla i rummet. Konstnärliga väggmålningar
-                        kan utföras i olika stilar och tekniker för att passa dina behov och önskemål. Du kan välja en stor
-                        och färgglad mural som skapar en imponerande visuell effekt eller en mindre målning som passar
-                        perfekt i ett hörn. Oavsett vad du väljer kommer en konstnärlig väggmålning att göra ditt hem eller
-                        din arbetsplats unikt och personligt.</p>
+                    <h1>Vårt team är vår stolthet</h1>
+                    <p>ByggLyck består av kvalificerade och erfarna medarbetare som varje dag bidrar med sin professionalism för att leverera högkvalitativa resultat i varje projekt. Vi investerar kontinuerligt i vår personal och uppmuntrar individuell utveckling.
+                        Vi håller oss alltid uppdaterade med de senaste branschstandarderna och byggnormerna i Sverige. Våra medarbetare genomgår regelbundet utbildningar och certifieringar för att stärka sina kunskaper och behålla vår konkurrenskraft på marknaden.
+                        <br/>
+                        <br/>
+                        Några av de viktigaste utbildningar och behörigheter inom vårt team:
+                    </p>
+                    <p>
+                        <ul>
+                            <li><b>Safe Construction Training</b> – hela byggbranschens introduktionsutbildning inom arbetsmiljö och säkerhet.</li>
+                            <li><b>Fallskydd</b> – arbete på hög höjd.</li>
+                            <li><b>Heta Arbeten</b> – hantering av heta arbeten.</li>
+                            <li><b>Handhavande av mobila arbetsplattformar</b> – arbete med mobila arbetsplattformar.</li>
+                            <li><b>Asbest</b> – Allmän utbildning – grundläggande kunskap om hantering av asbest</li>
+                            <li><b>BAS P/U</b> – ansvar för planering och samordning av arbetsmiljö enligt svensk lagstiftning.</li>
+                        </ul>
+                    </p>
+                    <br/>
+                    <p>Vi har även certifiering från BKR (Byggkeramikrådet), vilket innebär att vi har rätt kompetens för att utföra plattsättningsarbeten enligt gällande branschregler. Våra medarbetare har genomgått:</p>
+                    <br/>
+                    <p>
+                        <ul>
+                            <li><b>BBV-utbildning</b> – branschregler för våtrum.</li>
+                            <li><b>Arbete i våtrum enligt gällande branschregler</b> – korrekt utförande i våta utrymmen.</li>
+                            <li><b>Tätskiktsutbildning</b> – läggning av tätskikt.</li>
+                        </ul>
+                    </p>
+                    <br/>
+                    <p>Dessa kunskaper och certifikat garanterar inte bara hög kvalitet på våra arbeten utan också trygga arbetsmiljöer och förtroende hos våra kunder.</p>
                 </div>
             </section>
         </section>

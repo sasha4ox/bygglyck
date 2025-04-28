@@ -26,6 +26,23 @@
     text-indent: 25px;
 }
 
+.description h1 {
+    font-weight: 600;
+    font-size: 30px;
+    color: var(--description-color);
+    text-indent: 25px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.partnersLogo {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
 .maxWidth {
     max-width: 1500px;
     margin: 0 auto;
@@ -38,7 +55,7 @@
     align-items: center;
     background: var(--background-color);
     width: 100%;
-    padding: 25px 0 200px;
+    padding: 25px 0 20px;
     border-top: 4px solid var(--main-color);
 }
 
@@ -108,6 +125,11 @@
     
     .workerPhotos {
         flex-direction: column;
+    }
+
+    .partnersLogo {
+        flex-direction: column;
+        align-items: center;
     }
 
     .workerAbout {

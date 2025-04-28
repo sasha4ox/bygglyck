@@ -95,7 +95,7 @@
     background-color: var(--yellow);
 }
 
-@media (max-width: 950px) {
+@media (max-width: 1050px) {
     .hamburgerMenu {
         display: block;
      }

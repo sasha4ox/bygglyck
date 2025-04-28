@@ -25,10 +25,25 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/discount": [
+    "/about-us": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/discount.js"
+      "static/chunks/pages/about-us.js"
+    ],
+    "/bathroom": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/bathroom.js"
+    ],
+    "/cleaning": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/cleaning.js"
+    ],
+    "/verksamheter": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/verksamheter.js"
     ]
   },
   "ampFirstPages": []

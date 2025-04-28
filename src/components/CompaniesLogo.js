@@ -11,8 +11,8 @@ export default function CompaniesLogo() {
     return (
         <section className={styles.companies}>
           <Swiper
-            spaceBetween={isSmallMobileScreen ? 0 : 50}
-            slidesPerView={isSmallMobileScreen ? 3 : 5}
+            spaceBetween={isSmallMobileScreen ? 50 : 50}
+            slidesPerView={isSmallMobileScreen ? 2 : 6}
             onSlideChange={() => console.log('slide change')}
             onSwiper={(swiper) => console.log(swiper)}
     >
@@ -22,8 +22,8 @@ export default function CompaniesLogo() {
                         src='/companies/logotype.png'
                         alt="Main Photos"
                         className={styles.vercelLogo}
-                        width={isMobile? 100 : 100}
-                        height={isSmallMobileScreen ? 45 : 20}
+                        width={isMobile ? 150 : 150}
+                        height={isSmallMobileScreen ? 45 : 50}
                         priority
                     />
                 </a>
@@ -34,52 +34,60 @@ export default function CompaniesLogo() {
                         src='/companies/id06.png'
                         alt="Main Photos"
                         className={styles.vercelLogo}
-                        width={isMobile? 50 : 80}
-                        height={isSmallMobileScreen ? 20 : 25}
+                        width={isMobile ? 150 : 170}
+                        height={isSmallMobileScreen ? 20 : 55}
                         priority
                     />
                 </a>
             </SwiperSlide>
-            
             <SwiperSlide>
                 <a href={'https://www.trygghansa.se/'} target='_blank' rel="noreferrer">
                     <Image
                         src='/companies/tryggHansa.png'
                         alt="Main Photos"
                         className={styles.hansa}
-                        width={isMobile? 100 : 100}
-                        height={isSmallMobileScreen ? 20 : 20}
+                        width={isMobile ? 150 : 150}
+                        height={isSmallMobileScreen ? 20 : 50}
                         priority
                     />
                 </a>
             </SwiperSlide>       
-            
             <SwiperSlide>
                 <a href={'https://www.fora.se/'} target='_blank' rel="noreferrer">
                     <Image
                         src='/companies/logo_white.svg'
                         alt="Main Photos"
                         className={styles.vercelLogo}
-                        width={isMobile? 100 : 100}
-                        height={isSmallMobileScreen ? 20 : 20}
+                        width={isMobile? 100 : 150}
+                        height={isSmallMobileScreen ? 20 : 50}
                         priority
                     />
                 </a>
             </SwiperSlide>
-            
             <SwiperSlide>
                 <a href={'https://www.hetaarbeten.se/'} target='_blank' rel="noreferrer">
                     <Image
                         src='/companies/logo-default.svg'
                         alt="Main Photos"
                         className={styles.vercelLogo}
-                        width={isMobile? 100 : 100}
-                        height={isSmallMobileScreen ? 20 : 20}
+                        width={isMobile ? 100 : 150}
+                        height={isSmallMobileScreen ? 20 : 50}
                         priority
                     />
                 </a>
             </SwiperSlide>        
-            
+            <SwiperSlide>
+                <a href={'https://www.bkr.se/'} target='_blank' rel="noreferrer">
+                    <Image
+                        src='/companies/keramik.jpg'
+                        alt="Main Photos"
+                        className={styles.vercelLogo}
+                        width={isMobile ? 100 : 150}
+                        height={isSmallMobileScreen ? 20 : 100}
+                        priority
+                    />
+                </a>
+            </SwiperSlide>   
             </Swiper>
             
         </section>

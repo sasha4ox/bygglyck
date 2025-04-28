@@ -1,0 +1,64 @@
+.mainPhoto {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.photoWrapper {
+    position: relative;
+    height: 375px;
+    width: 500px;
+
+}
+
+.descriptionWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--background-color);
+    width: 100%;
+    padding: 25px 0;
+}
+
+.description {
+    width: 400px;
+    border-left: solid 5px var(--main-color);
+    padding-left: 20px;
+    width: 685px;
+}
+
+.description p {
+    color: var(--description-color);
+    text-indent: 25px;
+}
+
+.description h1 {
+    font-weight: 600;
+    font-size: 30px;
+    color: var(--description-color);
+    text-indent: 25px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.maxWidth {
+    max-width: 1500px;
+    margin: 0 auto;
+    background-color: var(--background-color);
+}
+
+@media (max-width: 950px) {
+   .mainPhoto {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+   }
+
+   .photoWrapper {
+    margin: 5px;
+    width: 320px;
+    height: 300px;
+   }
+}

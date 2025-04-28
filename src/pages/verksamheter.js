@@ -17,7 +17,13 @@ export default function Verksamheter() {
                         priority
                     />
                 </div>
-                <section className={styles.descriptionWrapperLeft}>
+                <section className={styles.videoWrapper}>
+                    <video autoPlay loop playsInline controls>         
+                        <source src="/video/verks.mp4" type="video/mp4"/>       
+                    </video>
+                </section>
+               
+                {/* <section className={styles.descriptionWrapperLeft}>
                     <div className={styles.description}>
                         <p>&quot;Vi är ett byggföretag som specialiserar oss på högkvalitativt snickeri och träbearbetning.
                             Vi erbjuder en rad olika tjänster, inklusive design och tillverkning av inredning, installation
@@ -61,7 +67,7 @@ export default function Verksamheter() {
                             konstverk som hjälper våra kunder att skapa en unik och personlig estetisk upplevelse för
                             deras hem eller företag.&quot;</p>
                     </div>
-                </section>
+                </section> */}
            </section>
             <Footer/>
         </>

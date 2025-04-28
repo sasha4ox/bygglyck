@@ -40,16 +40,16 @@ export default function Header() {
             <meta name="robots" content="index, follow"></meta>
             <meta name="viewport" content="width=device-width, initial-scale=1" />
             <link
-  rel="stylesheet"
-  type="text/css"
-  charset="UTF-8"
-  href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css"
-/>
-<link
-  rel="stylesheet"
-  type="text/css"
-  href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
-/>
+                rel="stylesheet"
+                type="text/css"
+                charset="UTF-8"
+                href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css"
+            />
+            <link
+                rel="stylesheet"
+                type="text/css"
+                href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
+                />
             <link rel="icon" href="/favicon.ico" />
         </Head>
         <header className={styles.header} id={'header'}>
@@ -98,22 +98,42 @@ export default function Header() {
                 </label>
 
                 <ul className="menu__box">
-                    <li><Link
-                        className={router.pathname === "/" ? styles.menuItemActive : styles.menuItem }
-                        href='/'>HOME</Link>
+                    <li>
+                        <Link
+                            className={router.pathname === "/" ? styles.menuItemActive : styles.menuItem }
+                            href='/'>HOME
+                        </Link>
                     </li>
-                    <li><Link
-                        className={router.pathname === "/about-us" ? styles.menuItemActive : styles.menuItem }
-                        href='/about-us'>FÖRETAGSINFO</Link>
+                    <li>
+                        <Link
+                            className={router.pathname === "/about-us" ? styles.menuItemActive : styles.menuItem }
+                            href='/about-us'>FÖRETAGSINFO
+                        </Link>
                     </li>
-                    <li><Link
-                        className={router.pathname === "/verksamheter" ? styles.menuItemActive : styles.menuItem }
-                        href='/verksamheter'>VERKSAMHETER</Link>
+                    <li>
+                        <Link
+                            className={router.pathname === "/verksamheter" ? styles.menuItemActive : styles.menuItem }
+                            href='/verksamheter'>VERKSAMHETER
+                        </Link>
                     </li>
-                    <li><Link
-                        className={router.pathname === "/artistic-wall-painting" ? styles.menuItemActive : styles.menuItem }
-                        href='/artistic-wall-painting'>KONSTNÄRLIG VÄGGMÅLNING</Link>
+                    <li>
+                         <Link
+                            className={router.pathName === "/cleaning" ? styles.menuItemActive : styles.menuItem }
+                            href='/cleaning'>BYGGSTÄDNING
+                        </Link>
                     </li>
+                    <li>
+                        <Link
+                            className={router.pathName === "/bathroom" ? styles.menuItemActive : styles.menuItem }
+                            href='/bathroom'>VÅTRUMSBEHÖRIGHET
+                        </Link>
+                    </li>
+                    {/* <li>
+                        <Link
+                            className={router.pathname === "/artistic-wall-painting" ? styles.menuItemActive : styles.menuItem }
+                            href='/artistic-wall-painting'>KONSTNÄRLIG VÄGGMÅLNING
+                        </Link>
+                    </li> */}
                     {/* <li><Link
                         className={router.pathname === "/discount" ? styles.menuItemActive : styles.menuItemPromoted }
                         href='/discount'>RABATTKORT</Link>
