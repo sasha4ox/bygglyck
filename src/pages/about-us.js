@@ -100,7 +100,7 @@ export default function AboutUs() {
                         </div>
                     </section>
                     <section className={styles.partnersLogo}>
-                    <a href="https://nasvensson.woody.se/" target="_blank" className={styles.circlePhoto}>
+                    <a href="https://nasvensson.woody.se/" target="_blank" rel="noreferrer" className={styles.circlePhoto}>
                                 <Image
                                     src='/photos/companiesLogo/1.png'
                                     alt="Worker photo"
@@ -109,7 +109,7 @@ export default function AboutUs() {
                                     // priority
                                 />
                             </a>
-                            <a href="https://lip.dk/se/" target="_blank" className={styles.circlePhoto}>
+                            <a href="https://lip.dk/se/" target="_blank" rel="noreferrer" className={styles.circlePhoto}>
                                 <Image
                                     src='/photos/companiesLogo/2.png'
                                     alt="Worker photo"
@@ -118,7 +118,7 @@ export default function AboutUs() {
                                     // priority
                                 />
                             </a>
-                            <a href="https://www.nordstroms.se/vara-anlaggningar/sodermalms-tra-arsta/" target="_blank" className={styles.circlePhoto}>
+                            <a href="https://www.nordstroms.se/vara-anlaggningar/sodermalms-tra-arsta/" target="_blank" rel="noreferrer" className={styles.circlePhoto}>
                                 <Image
                                    src='/photos/companiesLogo/3.png'
                                     alt="Worker photo"
@@ -127,7 +127,7 @@ export default function AboutUs() {
                                     // priority
                                 />
                             </a>
-                            <a href="https://www.beijerbygg.se/privat" target="_blank" className={styles.circlePhoto}>
+                            <a href="https://www.beijerbygg.se/privat" target="_blank" rel="noreferrer" className={styles.circlePhoto}>
                                 <Image
                                    src='/photos/companiesLogo/4.png'
                                     alt="Worker photo"
@@ -136,7 +136,7 @@ export default function AboutUs() {
                                     // priority
                                 />
                             </a>
-                            <a href="https://www.centro.se/" target="_blank" className={styles.circlePhoto}>
+                            <a href="https://www.centro.se/" target="_blank" rel="noreferrer" className={styles.circlePhoto}>
                                 <Image
                                     src='/photos/companiesLogo/5.png'
                                     alt="Worker photo"
