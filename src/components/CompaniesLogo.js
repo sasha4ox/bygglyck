@@ -9,10 +9,10 @@ export default function CompaniesLogo() {
     const isSmallMobileScreen = globalThis.innerWidth < 765;
 
     return (
-        <section className={styles.companies}>
+        <section className={styles.companies} id='companiesLogosWrapper'>
           <Swiper
             spaceBetween={isSmallMobileScreen ? 50 : 50}
-            slidesPerView={isSmallMobileScreen ? 2 : 6}
+            slidesPerView={isSmallMobileScreen ? 2 : 5}
             onSlideChange={() => console.log('slide change')}
             onSwiper={(swiper) => console.log(swiper)}
     >
@@ -76,7 +76,7 @@ export default function CompaniesLogo() {
                     />
                 </a>
             </SwiperSlide>        
-            <SwiperSlide>
+            {/* <SwiperSlide>
                 <a href={'https://www.bkr.se/'} target='_blank' rel="noreferrer">
                     <Image
                         src='/companies/keramik.jpg'
@@ -87,7 +87,7 @@ export default function CompaniesLogo() {
                         priority
                     />
                 </a>
-            </SwiperSlide>   
+            </SwiperSlide>    */}
             </Swiper>
             
         </section>

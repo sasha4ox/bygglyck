@@ -32,7 +32,7 @@ export default function Home() {
             </section>
             <div className={styles.video}>
                 <video autoPlay muted loop playsInline>         
-                    <source src="/video/video2.mp4" type="video/mp4"/>       
+                    <source src="/video/video3.mp4" type="video/mp4"/>       
                 </video>
             </div>
             <section className={styles.descriptionWrapper}>

@@ -21,11 +21,12 @@
 
 .video {
   object-fit: cover;
-  padding: 50px 0;
   background: var(--background-color);
   display: flex;
   flex-direction: column;
   justify-content: center;
+  border-bottom: 3px solid var(--yellow);
+  border-top: 3px solid var(--yellow);
 }
 .video video {
   object-fit: cover;

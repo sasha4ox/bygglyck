@@ -10,7 +10,11 @@
     margin: 0 auto 15px;
     background: var(--background-color);
     border-bottom: 4px solid var(--main-color);
-    /* border-top: 4px solid var(--main-color); */
+}
+
+.invisibleCompanies {
+    display: none;
+    background: var(--background-color);
 }
 
 @media (max-width: 765px) {

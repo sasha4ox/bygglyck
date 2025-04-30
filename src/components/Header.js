@@ -1,5 +1,6 @@
 import Head from "next/head";
 import styles from '@/styles/Header.module.css'
+import stylesCompanies from '@/styles/CompaniesLogo.module.css'
 import Image from "next/image";
 import Navigation from "@/components/Navigation";
 import {useEffect} from "react";
@@ -20,6 +21,19 @@ function scrollFunction() {
 
 export default function Header() {
     const router = useRouter();
+    
+    
+    const handleHamburgerMenu = event => {
+        if (event.target.checked) {
+            document.getElementById("companiesLogosWrapper").classList.add(stylesCompanies.invisibleCompanies)
+        } else {
+            document.getElementById("companiesLogosWrapper").classList.remove(stylesCompanies.invisibleCompanies)
+        }
+        // window.scroll( {
+        //     top: 0,
+        //     behavior: "smooth"
+        // } );
+    }
 
     useEffect(() => {
         //add eventlistener to window
@@ -92,7 +106,7 @@ export default function Header() {
                 
             </section>
             <div className={styles.hamburgerMenu}>
-                <input id="menu__toggle" type="checkbox"/>
+                <input id="menu__toggle" onClick={handleHamburgerMenu} type="checkbox"/>
                 <label className="menu__btn" htmlFor="menu__toggle">
                     <span></span>
                 </label>

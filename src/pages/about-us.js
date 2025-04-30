@@ -60,7 +60,7 @@ export default function AboutUs() {
                         <div className={styles.workerAbout}>
                             <div className={styles.circlePhoto}>
                                 <Image
-                                    src='/photos/photo1.jpg'
+                                    src='/photos/2124.png'
                                     alt="Worker photo"
                                     className={styles.circlePhotoImg}
                                     fill
@@ -68,7 +68,7 @@ export default function AboutUs() {
                                 />
                             </div>
                             <p className={styles.workerName}>Iurrii Abramov</p>
-                            <p className={styles.workerPosition}>Entreprenad chef</p>
+                            <p className={styles.workerPosition}>Entreprenadchef & Delägare</p>
                             <p><a href='mailto:Iurii@bygglyck.se'>Iurii@bygglyck.se</a></p>
                             <p><a href='tel:070 07 07 130'>070 07 07 130</a></p>
                         </div>

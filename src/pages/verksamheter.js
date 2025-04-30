@@ -17,12 +17,13 @@ export default function Verksamheter() {
                         priority
                     />
                 </div>
+                <div className={styles.extraSpace}></div>
                 <section className={styles.videoWrapper}>
                     <video autoPlay loop playsInline controls>         
                         <source src="/video/verks.mp4" type="video/mp4"/>       
                     </video>
                 </section>
-               
+                <div className={styles.extraSpace}></div>
                 {/* <section className={styles.descriptionWrapperLeft}>
                     <div className={styles.description}>
                         <p>&quot;Vi är ett byggföretag som specialiserar oss på högkvalitativt snickeri och träbearbetning.
