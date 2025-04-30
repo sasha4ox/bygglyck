@@ -67,7 +67,7 @@ export default function AboutUs() {
                                     // priority
                                 />
                             </div>
-                            <p className={styles.workerName}>Iurrii Abramov</p>
+                            <p className={styles.workerName}>Iurii Abramov</p>
                             <p className={styles.workerPosition}>Entreprenadchef & Delägare</p>
                             <p><a href='mailto:Iurii@bygglyck.se'>Iurii@bygglyck.se</a></p>
                             <p><a href='tel:070 07 07 130'>070 07 07 130</a></p>
