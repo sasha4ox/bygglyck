@@ -60,7 +60,7 @@ export default function AboutUs() {
                         <div className={styles.workerAbout}>
                             <div className={styles.circlePhoto}>
                                 <Image
-                                    src='/photos/2124.png'
+                                    src='/photos/photoJurii33.jpg'
                                     alt="Worker photo"
                                     className={styles.circlePhotoImg}
                                     fill
