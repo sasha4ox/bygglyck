@@ -43,7 +43,7 @@ export default function CompaniesLogo() {
             <SwiperSlide>
                 <a href={'https://www.trygghansa.se/'} target='_blank' rel="noreferrer">
                     <Image
-                        src='/companies/tryggHansa.png'
+                        src='/companies/trygg2.jpg'
                         alt="Main Photos"
                         className={styles.hansa}
                         width={isMobile ? 150 : 150}
