@@ -54,6 +54,13 @@
   text-indent: 25px;
 }
 
+.description div {
+  /*font-family: var(--font-mono);*/
+  font-weight: 200;
+  color: var(--description-color);
+  text-indent: 25px;
+}
+
 .description h1 {
   font-weight: 600;
   color: var(--description-color);

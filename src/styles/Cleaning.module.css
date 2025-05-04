@@ -60,4 +60,9 @@
     width: 320px;
     height: 215px;
    }
+
+   .description h1 {
+    text-indent: -20px;
+
+}
 }

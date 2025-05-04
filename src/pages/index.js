@@ -44,7 +44,7 @@ export default function Home() {
                         <br/>
                         Några av de viktigaste utbildningar och behörigheter inom vårt team:
                     </p>
-                    <p>
+                    <div>
                         <ul>
                             <li><b>Safe Construction Training</b> – hela byggbranschens introduktionsutbildning inom arbetsmiljö och säkerhet.</li>
                             <li><b>Fallskydd</b> – arbete på hög höjd.</li>
@@ -53,17 +53,17 @@ export default function Home() {
                             <li><b>Asbest</b> – Allmän utbildning – grundläggande kunskap om hantering av asbest</li>
                             <li><b>BAS P/U</b> – ansvar för planering och samordning av arbetsmiljö enligt svensk lagstiftning.</li>
                         </ul>
-                    </p>
+                    </div>
                     <br/>
                     <p>Vi har även certifiering från BKR (Byggkeramikrådet), vilket innebär att vi har rätt kompetens för att utföra plattsättningsarbeten enligt gällande branschregler. Våra medarbetare har genomgått:</p>
                     <br/>
-                    <p>
+                    <div>
                         <ul>
                             <li><b>BBV-utbildning</b> – branschregler för våtrum.</li>
                             <li><b>Arbete i våtrum enligt gällande branschregler</b> – korrekt utförande i våta utrymmen.</li>
                             <li><b>Tätskiktsutbildning</b> – läggning av tätskikt.</li>
                         </ul>
-                    </p>
+                    </div>
                     <br/>
                     <p>Dessa kunskaper och certifikat garanterar inte bara hög kvalitet på våra arbeten utan också trygga arbetsmiljöer och förtroende hos våra kunder.</p>
                 </div>
